@@ -5,6 +5,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'csv'
 
+# bla-bla
 def humanize secs
     [[60, :seconds], [60, :minutes], [24, :hours], [Float::INFINITY, :days]].map{ |count, name|
       if secs > 0
